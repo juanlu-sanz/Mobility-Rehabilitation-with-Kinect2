@@ -1,17 +1,12 @@
 #include "KinectManager.h"
 
-
-
 KinectManager::KinectManager()
 {
 }
 
-
 KinectManager::~KinectManager()
 {
 }
-
-
 
 bool KinectManager::initKinect() {
 	if (FAILED(GetDefaultKinectSensor(&sensor))) {

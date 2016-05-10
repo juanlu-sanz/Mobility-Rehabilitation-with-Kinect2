@@ -4,7 +4,6 @@
 
 using namespace cv;
 
-
 #define width 1920
 #define height 1080
 
@@ -14,12 +13,7 @@ IKinectSensor* sensor;         // Kinect sensor
 IColorFrameReader* reader;     // Kinect color data source
 */
 
-
-
-
-
 int main() {
-
 	KinectManager *TheKinectMann = new KinectManager();
 
 	Mat image;          //Create Matrix to store image

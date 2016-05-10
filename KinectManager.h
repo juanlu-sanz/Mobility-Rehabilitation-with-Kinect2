@@ -11,10 +11,5 @@ public:
 	~KinectManager();
 	bool initKinect();
 
-
-
 private:
-
-
 };
-
